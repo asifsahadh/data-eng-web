@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineering Ltd | Elevators & Escalators Mauritius</title>
+    <meta name="description"
+        content="Data Engineering Ltd provides lifts, escalators, and goods lifts in Mauritius. Authorized distributor of Sigma.">
+    <link rel="icon" href="media/favicon_square.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="media/logo.svg"
+                    alt="Data Engineering Ltd Logo">
+            </a>
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 12h18M3 6h18M3 18h18" />
+                </svg>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#products">Products</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <video autoplay loop muted playsinline class="hero-video">
+                    <source src="media/vid-1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="overlay"></div>
+            </div>
+            <div class="hero-content">
+                <span class="badge">Since 1998</span>
+                <h1>Elevating the Nation</h1>
+                <p>Providing exceptional vertical transportation solutions in Mauritius. Lifts, Escalators, Travelators,
+                    and Goods Lifts.</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectors Section -->
+        <section class="sectors" id="sectors">
+            <div class="sector-card">
+                <div class="sector-bg">
+                    <img src="media/resid.png" alt="Residential Sector">
+                    <div class="overlay"></div>
+                </div>
+                <div class="sector-content">
+                    <h2>Residential</h2>
+                </div>
+            </div>
+            <div class="sector-card">
+                <div class="sector-bg">
+                    <img src="media/com.png" alt="Commercial and Offices">
+                    <div class="overlay"></div>
+                </div>
+                <div class="sector-content">
+                    <h2>Commercial &amp; Offices</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Section -->
+        <section class="partners">
+            <p>Authorized Distributor Of</p>
+            <img class="partner-logo" src="media/sigma.png" alt="Sigma Elevators Logo">
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>Our Legacy</h2>
+                        <p>Data Engineering Ltd was incorporated in 1998 and has ever since contributed to the progress
+                            of the country by providing customers with unbeatable value through its products, equipment
+                            supplies, and services.</p>
+                        <p>Our track record shows outstanding customer confidence built through our dynamic and
+                            professional approach, supported by reliable and dedicated employees.</p>
+                    </div>
+                    <div class="about-image legacy-slider">
+                        <div class="slider-container">
+                            <div class="slider-track">
+                                <div class="slide">
+                                    <img src="media/sales-team.jpg" alt="Our Legacy Team">
+                                </div>
+                                <div class="slide">
+                                    <img src="media/sigma-1.jpg" alt="Sigma Project 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="media/sigma-2.jpg" alt="Sigma Project 2">
+                                </div>
+                            </div>
+                            
+                            <button class="slider-btn prev-btn" aria-label="Previous Slide">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                            </button>
+                            <button class="slider-btn next-btn" aria-label="Next Slide">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                            </button>
+                            
+                            <div class="slider-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services bg-light" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive engineering and maintenance solutions.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="media/mech.png" alt="Mechanical Engineering">
+                        <div class="service-content">
+                            <h3>Mechanical Engineering</h3>
+                            <p>Supply and Installation of Lifts, Escalators, Goods Lifts, Travelators, Metal Structures,
+                                and Ducts for Generator Sets.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="media/elec.png" alt="Electrical Engineering">
+                        <div class="service-content">
+                            <h3>Electrical Engineering</h3>
+                            <p>Assembling Distribution Boards, Electrical Installations, Generator Sets Installation,
+                                and Cable Tray Fabrication.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="media/data-team.jpg"
+                            alt="Support & Services">
+                        <div class="service-content">
+                            <h3>Support &amp; Services</h3>
+                            <p>Periodic preventive maintenance contracts for lifts, escalators, and generator sets.
+                                Awesome and reputable after-sales service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Premium Products</h2>
+                    <p>Discover our range of world-class vertical transportation solutions.</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://www.dataengineeringltd.com/images/dsc_5079.jpg" alt="Passenger Lifts">
+                        <div class="product-content">
+                            <h3>Passenger & Goods Lifts</h3>
+                            <p>Reliable and efficient vertical transportation for residential and commercial buildings.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://www.dataengineeringltd.com/images/pexels-photo-264507-escalator-comp-buttonu47587-fr.jpg"
+                            alt="Escalators">
+                        <div class="product-content">
+                            <h3>Escalators</h3>
+                            <p>30 & 35 degrees (Steps: 600, 800, 1000mm wide). Built for smooth and safe traffic flow.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://www.dataengineeringltd.com/images/passenger-conveyor-travelator-moving-walkway-buttonu47592-fr.jpg"
+                            alt="Travelators">
+                        <div class="product-content">
+                            <h3>Travelators</h3>
+                            <p>12 degrees (Step: 800, 1000mm wide) moving walkways for public spaces and malls.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio bg-light" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Portfolio</h2>
+                    <p>Trusted by prominent commercial and residential spaces across the region.</p>
+                </div>
+                <div class="portfolio-list">
+                    <div class="portfolio-item">
+                        <img src="https://www.dataengineeringltd.com/images/dsc_5732.jpg"
+                            alt="Standard Chartered Tower Ebene">
+                        <span>Standard Chartered Tower</span>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://www.dataengineeringltd.com/images/p1040109.jpg"
+                            alt="Caudan Waterfront Foodcourt">
+                        <span>Caudan Waterfront</span>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://www.dataengineeringltd.com/images/dsc_5117.jpg" alt="Cybertower 1 Ebene">
+                        <span>Cybertower 1 Ebene</span>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://www.dataengineeringltd.com/images/20170130%20-%20asl%20-%20floreal%20commercial%20centre%20-%20rear%20view%20-lr-%20v8.jpg"
+                            alt="So Flo Floréal">
+                        <span>So Flo Floréal</span>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://www.dataengineeringltd.com/images/del-tati-after%20(3%20of%2025).jpg"
+                            alt="Tati">
+                        <span>Tati</span>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://www.dataengineeringltd.com/images/dsc_5594.jpg" alt="IKS Building Port Louis">
+                        <span>IKS Building</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- After Sales Section -->
+        <section class="after-sales" id="after-sales">
+            <div class="container">
+                <div class="cta-card">
+                    <h2>After Sales</h2>
+                    <p>Our awesome and reputable after sales service!</p>
+                    <div class="cta-phone">
+                        <span>Call us on</span>
+                        <a href="tel:2119383">211 93 83</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Contact us for technical or commercial enquiries.</p>
+
+                        <div class="info-item">
+                            <strong>📍 Address</strong>
+                            <p>Jackaria Road | Les Pailles | Mauritius</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>📞 Phone</strong>
+                            <p>+230 211 9383</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>📠 Fax</strong>
+                            <p>+230 208 1429</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>✉️ Email</strong>
+                            <p><a href="mailto:admin@dataengineeringltd.com">admin@dataengineeringltd.com</a></p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <img src="media/logo.svg"
+                    alt="Data Engineering Ltd Logo" class="footer-logo">
+                <p>VAT Reg. No: VAT20172219 | BRN: C07019253</p>
+                <p>&copy; 2026 Data Engineering Ltd | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-links').classList.remove('active');
+            });
+        });
+
+        // Smooth scroll for anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // About Image Slider/Carousel
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('.slider-container');
+            const track = document.querySelector('.slider-track');
+            if (!container || !track) return;
+            const slides = Array.from(document.querySelectorAll('.slide'));
+            const nextButton = document.querySelector('.next-btn');
+            const prevButton = document.querySelector('.prev-btn');
+            const dots = Array.from(document.querySelectorAll('.slider-dots .dot'));
+            
+            let slideIndex = 0;
+            let slideInterval;
+
+            const adjustHeight = () => {
+                const activeImg = slides[slideIndex].querySelector('img');
+                if (activeImg) {
+                    const h = activeImg.offsetHeight || activeImg.getBoundingClientRect().height;
+                    if (h > 0) {
+                        container.style.height = `${h}px`;
+                    }
+                }
+            };
+
+            const updateSlider = (index) => {
+                if (index >= slides.length) slideIndex = 0;
+                else if (index < 0) slideIndex = slides.length - 1;
+                else slideIndex = index;
+                
+                slides.forEach((slide, idx) => {
+                    slide.classList.toggle('active', idx === slideIndex);
+                });
+
+                adjustHeight();
+
+                dots.forEach((dot, idx) => {
+                    dot.classList.toggle('active', idx === slideIndex);
+                });
+            };
+
+            const nextSlide = () => {
+                updateSlider(slideIndex + 1);
+            };
+
+            const prevSlide = () => {
+                updateSlider(slideIndex - 1);
+            };
+
+            // Event Listeners
+            nextButton.addEventListener('click', (e) => {
+                e.stopPropagation();
+                nextSlide();
+                resetAutoplay();
+            });
+
+            prevButton.addEventListener('click', (e) => {
+                e.stopPropagation();
+                prevSlide();
+                resetAutoplay();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    updateSlider(index);
+                    resetAutoplay();
+                });
+            });
+
+            // Autoplay
+            const startAutoplay = () => {
+                slideInterval = setInterval(nextSlide, 5000);
+            };
+
+            const resetAutoplay = () => {
+                clearInterval(slideInterval);
+                startAutoplay();
+            };
+
+            // Swipe support for mobile devices
+            let touchStartX = 0;
+            let touchEndX = 0;
+
+            track.addEventListener('touchstart', e => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            track.addEventListener('touchend', e => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, { passive: true });
+
+            const handleSwipe = () => {
+                const swipeThreshold = 50;
+                if (touchStartX - touchEndX > swipeThreshold) {
+                    // Swipe Left -> Next
+                    nextSlide();
+                    resetAutoplay();
+                } else if (touchEndX - touchStartX > swipeThreshold) {
+                    // Swipe Right -> Prev
+                    prevSlide();
+                    resetAutoplay();
+                }
+            };
+
+            // Adjust height initially and when resize happens
+            window.addEventListener('resize', adjustHeight);
+            
+            // Adjust height on initial render
+            updateSlider(0);
+            
+            // Make sure height updates once images are loaded
+            slides.forEach(slide => {
+                const img = slide.querySelector('img');
+                if (img) {
+                    if (img.complete) {
+                        adjustHeight();
+                    } else {
+                        img.addEventListener('load', adjustHeight);
+                    }
+                }
+            });
+
+            // Initialize autoplay
+            startAutoplay();
+        });
+    </script>
+</body>
+
+</html>
