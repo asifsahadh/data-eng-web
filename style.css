@@ -24,7 +24,7 @@
     --max-width: 1200px;
 
     /* Play with this value to change the tilt of the landing page image */
-    --hero-tilt: 3deg;
+    --hero-tilt: 0deg;
 }
 
 /* Reset & Base Styles */
@@ -302,6 +302,13 @@ p {
     transform: scale(1.05);
 }
 
+.partners-divider {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 4rem 0 0;
+}
+
 /* Sectors Section */
 .sectors {
     display: grid;
@@ -375,7 +382,7 @@ p {
 
 /* About Section */
 .about {
-    padding: 8rem 0;
+    padding: 4rem 0;
 }
 
 .about-grid {
@@ -917,6 +924,18 @@ footer {
         padding: 4rem 0 !important;
     }
 
+    .hero {
+        padding: 140px 20px 80px !important;
+    }
+
+    .sectors {
+        padding: 0 !important;
+    }
+
+    .about {
+        padding-top: 0.5rem !important;
+    }
+
     .about-grid,
     .contact-grid {
         gap: 2rem;
@@ -925,5 +944,9 @@ footer {
     .contact-info,
     .contact-form {
         padding: 2rem 1.5rem;
+    }
+
+    .partner-logo {
+        height: 48px;
     }
 }
